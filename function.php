@@ -1,18 +1,20 @@
+<html>
+<body>
 <?php
 
-//file test.php
-echo "Sebuah $buah $warna"; //Sebuah
 include 'vars.php';
-echo "Sebuah $buah $warna"; //Sebuah apel hijau
 
-//file var.php
-$buah = "apel";
-$warna = "hijau";
 
-//contoh penerapan
+echo "Sebuah $buah $warna <br><br>";
+
+
 function tulisNama()
 { 
-echo "Merapi";
+    echo "Merapi";
 } 
+
+
 tulisNama();
 ?>
+</body>
+</html>

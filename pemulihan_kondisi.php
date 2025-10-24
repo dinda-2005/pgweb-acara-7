@@ -18,6 +18,8 @@ if ($d == "Sat") {
     echo "Sampai jumpa di hari Senin!<br>";
 }
 
+echo "<br><br><br><br>";
+
 // Menggunakan elseif
 $d = date("D");
 if ($d == "Sat") {
@@ -27,6 +29,8 @@ if ($d == "Sat") {
 } else {
     echo "Semoga hari anda menyenangkan!<br>";
 }
+
+echo "<br><br><br><br>";
 
 // Menggunakan switch
 $x = 2;
